@@ -1,0 +1,32 @@
+{
+  "name": "nodejsapi",
+  "version": "1.0.0",
+  "description": "Node Js API with Express, MySql and Docker",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "nodemon src/index.js",
+    "start:prod": "node src/index.js"
+  },
+  "keywords": [
+    "NodeJs",
+    "Express",
+    "MySQL",
+    "Docker",
+    "API"
+  ],
+  "author": "Evgeny Baranov",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "ip": "^2.0.1",
+    "mysql": "^2.18.1",
+    "pino": "^8.19.0",
+    "pino-pretty": "^10.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
